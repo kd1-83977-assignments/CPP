@@ -162,7 +162,7 @@ class SalesManager:public Salesman,public Manager{
         SalesManager(){
             cout<<"Inside Salesmanager parameterless constructor"<<endl;
         }
-         SalesManager(int id, double salary,double bonus,double comm): Employee(id,salary),Manager(id,salary,bonus),Salesman(id,salary,comm)
+        SalesManager(int id, double salary,double bonus,double comm): Employee(id,salary),Manager(id,salary,bonus),Salesman(id,salary,comm)
          {
             cout<<"Inside Employee parameterized constructor"<<endl;
 
